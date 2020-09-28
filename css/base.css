@@ -280,6 +280,12 @@ a:focus {
 	pointer-events: auto;
 }
 
+@media(max-width: 768px) {
+	.js .slideshow--previewopen .slide--current .slide__img-wrap {
+		display: none;
+	}
+}
+
 .slide--visible .slide__img-wrap {
 	pointer-events: auto;
 }
